@@ -1,15 +1,30 @@
 .acq_logo {
 	font-family: 'Istok Web', sans-serif;
-	/*font-size: 25px !important;*/
+	font-size: 30px;
 	text-shadow: -1px 1px 3px black;
 	color: white !important;
 	text-decoration: none !important;
+	float: right;
+	padding-top: 9px;
 }
 
 .acq_i {
 	color: red;
 }
 
-#header {
-	
+body {
+	padding-top: 40px;	
+}
+
+input.search-query {
+	height: inherit;
+	margin-bottom: 0;
+}
+
+#leftBanner {
+	text-align: right;
+}
+
+#bottomBanner {
+	text-align: center;
 }
