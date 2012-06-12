@@ -1,3 +1,7 @@
+body {
+	background: lightgray;
+}
+
 .acq_logo {
 	font-family: 'Istok Web', sans-serif;
 	font-size: 30px;
@@ -16,15 +20,47 @@
 	padding-top: 40px;	
 }
 
+.content {
+	margin-left: 0;
+	background: white;
+	
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+	-moz-box-shadow: 0 0 5px 5px #888;
+	-webkit-box-shadow: 0 0 5px 5px#888;
+	box-shadow: 0 0 5px 5px #888;
+}
+
 input.search-query {
 	height: inherit;
 	margin-bottom: 0;
 }
 
+/*
 #leftBanner {
-	text-align: right;
+	text-align: center;
 }
 
 #bottomBanner {
+	text-align: center;
+}
+*/
+.adBanner {
+	text-align: center;
+}
+
+.adBanner img {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+	-moz-box-shadow: 0 0 5px 5px #888;
+	-webkit-box-shadow: 0 0 5px 5px#888;
+	box-shadow: 0 0 5px 5px #888;
+}
+
+.columnHeader {
 	text-align: center;
 }
